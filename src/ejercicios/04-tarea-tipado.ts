@@ -31,6 +31,6 @@ const superHeroe: SuperHeroe = {
 
 
 const direccion = superHeroe.mostrarDireccion();
-console.log( direccion );
+console.log(direccion);
 
 

@@ -14,9 +14,9 @@ const carritoCompras: Producto[] = [
     },
 ];
 
-const [total, isv] = calculaISV( carritoCompras );
+const [total, isv] = calculaISV(carritoCompras);
 
-console.log( 'Total', total );
-console.log( 'ISV', isv )
+console.log('Total', total);
+console.log('ISV', isv)
 
 

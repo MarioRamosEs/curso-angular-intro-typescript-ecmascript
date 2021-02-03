@@ -9,6 +9,6 @@ let estaVivo: boolean = true;
 hp = 'FULL';
 
 
-console.log( nombre, hp );
+console.log(nombre, hp);
 
 

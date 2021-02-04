@@ -12,7 +12,7 @@ function classDecorator<T extends { new(...args: any[]): {} }>(
 
 
 
-@classDecorator
+@classDecorator // Los decoradores se ejecutan antes del constructor
 class MiSuperClase {
   public miPropiedad: string = 'ABC123';
 
@@ -25,3 +25,4 @@ class MiSuperClase {
 console.log(MiSuperClase);
 
 const miClase = new MiSuperClase();
+console.log(miClase.miPropiedad);

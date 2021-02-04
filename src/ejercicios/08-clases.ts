@@ -21,6 +21,10 @@ class Heroe extends PersonaNormal {
         super(nombreReal, 'New York, USA');
     }
 
+    public imprimirNombre(): string {
+        return this.alterEgo + ' ' + this.nombreReal;
+    }
+
 }
 
 const ironman = new Heroe('Ironman', 45, 'Tony');

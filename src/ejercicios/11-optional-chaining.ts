@@ -28,3 +28,4 @@ function imprimeHijos(pasajero: Pasajero): void {
 
 
 imprimeHijos(pasajero1);
+imprimeHijos(pasajero2);
